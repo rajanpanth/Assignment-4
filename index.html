@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <h1>Login</h1>
+        <!-- <h2>Email</h2>
+        <input placeholder="Enter your email" type="email">
+        <h2>Password</h2>
+        <input type="password" placeholder="Enter Strong password" required minlength="6"> -->
+        <form action="https://httpbin.org/post" method="post">
+  <label for="user-email">Email</label>
+        <input id="user-email" type="email" placeholder="Enter your email" name="Email" required>
+        <br><br>
+        <label for="user-pass">Password</label>
+        <input id="user-pass" type="password" placeholder="Enter your Password" name="password" required minlength="6">
+        <br>
+        <br>
+        <label for="term">
+            <input type="checkbox" id="term" name="term" required>
+            I agree to the terms and conditions</label>
+        <br>
+
+        <input type="submit" value="Login"
+           >
+        </form>
+    </div>
+</body>
+
+</html>
